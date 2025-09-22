@@ -56,20 +56,20 @@ function Prop_order8_BM1000(du,u,p,t)
     du[m1+10] = p[1] * u[m1+10] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((2-1) * pi * t)/ T) * u[m1+5])
     du[m1+11] = p[1] * u[m1+11] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((3-1) * pi * t)/ T) * u[m1+6])
     #Orden 4
-    du[m1+12] = p[1] * u[m1+12] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((2-1) * pi * t)/ T) * u[m1+10])
-    du[m1+13] = p[1] * u[m1+13] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((3-1) * pi * t)/ T) * u[m1+11])
+    du[m1+12] = p[1] * u[m1+12] + p[2] * sqrt(2/T) * (sqrt(4) * sin(((2-1) * pi * t)/ T) * u[m1+10])
+    du[m1+13] = p[1] * u[m1+13] + p[2] * sqrt(2/T) * (sqrt(4) * sin(((3-1) * pi * t)/ T) * u[m1+11])
     #Orden 5
-    du[m1+14] = p[1] * u[m1+14] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((2-1) * pi * t)/ T) * u[m1+12])
-    du[m1+15] = p[1] * u[m1+15] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((3-1) * pi * t)/ T) * u[m1+13])
+    du[m1+14] = p[1] * u[m1+14] + p[2] * sqrt(2/T) * (sqrt(5) * sin(((2-1) * pi * t)/ T) * u[m1+12])
+    du[m1+15] = p[1] * u[m1+15] + p[2] * sqrt(2/T) * (sqrt(5) * sin(((3-1) * pi * t)/ T) * u[m1+13])
     #Orden 6
-    du[m1+16] = p[1] * u[m1+16] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((2-1) * pi * t)/ T) * u[m1+14])
-    du[m1+17] = p[1] * u[m1+17] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((3-1) * pi * t)/ T) * u[m1+15])
+    du[m1+16] = p[1] * u[m1+16] + p[2] * sqrt(2/T) * (sqrt(6) * sin(((2-1) * pi * t)/ T) * u[m1+14])
+    du[m1+17] = p[1] * u[m1+17] + p[2] * sqrt(2/T) * (sqrt(6) * sin(((3-1) * pi * t)/ T) * u[m1+15])
     #Orden 7
-    du[m1+18] = p[1] * u[m1+18] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((2-1) * pi * t)/ T) * u[m1+16])
-    du[m1+19] = p[1] * u[m1+19] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((3-1) * pi * t)/ T) * u[m1+17])
+    du[m1+18] = p[1] * u[m1+18] + p[2] * sqrt(2/T) * (sqrt(7) * sin(((2-1) * pi * t)/ T) * u[m1+16])
+    du[m1+19] = p[1] * u[m1+19] + p[2] * sqrt(2/T) * (sqrt(7) * sin(((3-1) * pi * t)/ T) * u[m1+17])
     #Orden 8
-    du[m1+20] = p[1] * u[m1+20] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((2-1) * pi * t)/ T) * u[m1+18])
-    du[m1+21] = p[1] * u[m1+21] + p[2] * sqrt(2/T) * (sqrt(3) * sin(((3-1) * pi * t)/ T) * u[m1+19])
+    du[m1+20] = p[1] * u[m1+20] + p[2] * sqrt(2/T) * (sqrt(8) * sin(((2-1) * pi * t)/ T) * u[m1+18])
+    du[m1+21] = p[1] * u[m1+21] + p[2] * sqrt(2/T) * (sqrt(8) * sin(((3-1) * pi * t)/ T) * u[m1+19])
 end
 
 
